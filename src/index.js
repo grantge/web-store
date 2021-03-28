@@ -2,6 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../src/index.css';
 
-import App from './App';
+import Header from '../src/components/Header';
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+ReactDOM.render(<Header />, document.querySelector('#root'));
