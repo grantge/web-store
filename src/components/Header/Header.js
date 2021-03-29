@@ -5,7 +5,7 @@ import '../Header/Header.css';
 function Header() {
   return (
     <header>
-      <h1>Stardew Valley Store</h1>
+      <h1>Stardew Valley Market</h1>
     </header>
   );
 }

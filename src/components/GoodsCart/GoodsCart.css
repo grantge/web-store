@@ -1,0 +1,26 @@
+.nes-container .is-rounded {
+  height: 360px;
+}
+
+.nes-btn {
+  position: absolute;
+
+  top: 86%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.cart-title {
+  margin-bottom: 15px;
+}
+
+.price {
+  position: absolute;
+  top: 88%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  margin-bottom: 15px;
+}
