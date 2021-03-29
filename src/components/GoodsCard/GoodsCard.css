@@ -1,5 +1,13 @@
 .nes-container .is-rounded {
-  height: 360px;
+  height: 305px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+
+  justify-content: space-around;
 }
 
 .nes-btn {
@@ -14,6 +22,11 @@
   margin-bottom: 15px;
 }
 
+.descr {
+  color: #455953;
+  font-size: 0.9rem;
+}
+
 .price {
   position: absolute;
   top: 88%;
@@ -22,5 +35,5 @@
 }
 
 img {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }

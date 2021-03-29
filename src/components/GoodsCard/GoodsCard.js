@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './GoodsCart.css';
+import './GoodsCard.css';
 
-class GoodsCart extends React.Component {
+class GoodsCard extends React.Component {
   constructor(props) {
     super(props);
 
@@ -20,7 +20,7 @@ class GoodsCart extends React.Component {
       <div className="nes-container is-rounded is-white">
         <h4 className="cart-title"> {this.props.cartTitle} </h4>
         <img src={this.props.image} alt={this.props.alt} />
-        <p>{this.props.text}</p>
+        <p className="descr">{this.props.text}</p>
         <p className="price">{this.props.price}z</p>
         <button
           onClick={() => this.activeButton()}
@@ -29,11 +29,11 @@ class GoodsCart extends React.Component {
             this.state.active ? 'nes-btn is-disabled' : 'nes-btn is-primary'
           }
         >
-          Buy
+          Add
         </button>
       </div>
     );
   }
 }
 
-export default GoodsCart;
+export default GoodsCard;
