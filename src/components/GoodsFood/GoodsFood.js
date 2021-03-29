@@ -19,7 +19,7 @@ function GoodsFood() {
   return (
     <div className="nes-container with-title is-centered">
       <p className="title">Food</p>
-      <div className="container">
+      <div className="container food">
         <GoodsCard
           cartTitle={'Omelet'}
           image={images['Omelet.png'].default}
@@ -75,6 +75,12 @@ function GoodsFood() {
           image={images['Ice_Cream.png'].default}
           alt={'ice cream'}
           text={"It's hard to find someone who doesn't like this"}
+        />
+        <GoodsCard
+          cartTitle={'Burger'}
+          image={images['Burger.png'].default}
+          alt={'burger'}
+          text={'A convenient snack for the explorer.'}
         />
       </div>
     </div>
