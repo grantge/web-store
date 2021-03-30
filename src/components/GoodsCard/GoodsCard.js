@@ -13,6 +13,7 @@ class GoodsCard extends React.Component {
 
   activeButton() {
     this.setState({ active: true });
+    localStorage.setItem(this.props.cartTitle, this.props.price);
   }
 
   render() {
@@ -24,6 +25,7 @@ class GoodsCard extends React.Component {
           <p className="descr">{this.props.text}</p>
           <p className="price">{this.props.price}z</p>
           <button
+            // onClick={() => this.local()}
             onClick={() => this.activeButton()}
             type="button"
             className={

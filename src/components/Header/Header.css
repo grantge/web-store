@@ -14,7 +14,17 @@ header {
   align-items: center;
 }
 
+header div {
+  position: relative;
+}
+
 .cart {
   width: 120px;
   margin: 0;
+}
+
+.cart-score {
+  position: absolute;
+  top: 65%;
+  right: 68%;
 }
