@@ -14,6 +14,7 @@ const images = importAll(
 // Data
 const toolsArray = [
   {
+    id: 1,
     cardTitle: 'Wood Mallet',
     image: images['Wood_Mallet.png'].default,
     alt: 'wood mallet',
@@ -21,6 +22,7 @@ const toolsArray = [
     price: 60,
   },
   {
+    id: 2,
     cardTitle: 'Slingshot',
     image: images['Slingshot.png'].default,
     alt: 'slingshot',
@@ -28,6 +30,7 @@ const toolsArray = [
     price: 60,
   },
   {
+    id: 3,
     cardTitle: 'Wooden Blade',
     image: images['Wooden_Blade.png'].default,
     alt: 'wooden blade',

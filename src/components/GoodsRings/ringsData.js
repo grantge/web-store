@@ -16,6 +16,7 @@ const images = importAll(
 
 const ringsArray = [
   {
+    id: 1,
     cardTitle: 'Sturdy Ring',
     image: images['Sturdy_Ring.png'].default,
     alt: 'sturdy ring',
@@ -23,6 +24,7 @@ const ringsArray = [
     price: 60,
   },
   {
+    id: 2,
     cardTitle: 'Ruby Ring',
     image: images['Ruby_Ring.png'].default,
     alt: 'ruby ring',
@@ -30,6 +32,7 @@ const ringsArray = [
     price: 80,
   },
   {
+    id: 3,
     cardTitle: 'Glow Ring',
     image: images['Glow_Ring.png'].default,
     alt: 'glow ring',

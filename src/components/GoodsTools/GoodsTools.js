@@ -10,6 +10,7 @@ function GoodsTools() {
   const tools = toolsArray.map((item) => {
     return (
       <GoodsCard
+        key={item.id}
         cartTitle={item.cardTitle}
         image={item.image}
         alt={item.alt}

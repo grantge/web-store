@@ -14,6 +14,7 @@ const images = importAll(
 // Data
 const foodArray = [
   {
+    id: 1,
     cardTitle: 'Omelet',
     image: images['Omelet.png'].default,
     alt: 'omelet',
@@ -21,6 +22,7 @@ const foodArray = [
     price: 60,
   },
   {
+    id: 2,
     cardTitle: 'Sal Dinner',
     image: images['Salmon_Dinner.png'].default,
     alt: 'salmon',
@@ -28,6 +30,7 @@ const foodArray = [
     price: 60,
   },
   {
+    id: 3,
     cardTitle: 'Salad',
     image: images['Salad.png'].default,
     alt: 'salad',
@@ -35,6 +38,7 @@ const foodArray = [
     price: 60,
   },
   {
+    id: 4,
     cardTitle: 'Pizza',
     image: images['Pizza.png'].default,
     alt: 'pizza',
@@ -42,6 +46,7 @@ const foodArray = [
     price: 60,
   },
   {
+    id: 5,
     cardTitle: 'Spaghetti',
     image: images['Spaghetti.png'].default,
     alt: 'spaghetti',
@@ -49,6 +54,7 @@ const foodArray = [
     price: 60,
   },
   {
+    id: 6,
     cardTitle: 'Breakfast',
     image: images['Complete_Breakfast.png'].default,
     alt: 'breakfast',
@@ -56,6 +62,7 @@ const foodArray = [
     price: 60,
   },
   {
+    id: 7,
     cardTitle: 'Pancakes',
     image: images['Pancakes.png'].default,
     alt: 'pancakes',
@@ -63,6 +70,7 @@ const foodArray = [
     price: 60,
   },
   {
+    id: 8,
     cardTitle: 'Ice Cream',
     image: images['Ice_Cream.png'].default,
     alt: 'ice cream',
@@ -70,6 +78,7 @@ const foodArray = [
     price: 60,
   },
   {
+    id: 9,
     cardTitle: 'Burger',
     image: images['Burger.png'].default,
     alt: 'burger',
