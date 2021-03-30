@@ -1,4 +1,4 @@
-// Function that get us ring images
+// Function that gives us ring images
 
 function importAll(r) {
   let images = {};
@@ -19,7 +19,7 @@ const ringsArray = [
     cardTitle: 'Sturdy Ring',
     image: images['Sturdy_Ring.png'].default,
     alt: 'sturdy ring',
-    text: 'Cuts the duration of negative status effects in half.',
+    text: 'Cuts the duration of negative status',
     price: 60,
   },
   {

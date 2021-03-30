@@ -1,8 +1,20 @@
 header {
-  margin-top: 20px;
+  padding: 15px;
+
+  background-color: #edd8bf;
+  color: #805e4b;
 
   text-align: center;
   font-size: 0.8rem;
 
   color: #ed7a4d;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cart {
+  width: 120px;
+  margin: 0;
 }

@@ -1,4 +1,4 @@
-// function that get us food images
+// function that gives us food images
 function importAll(r) {
   let images = {};
   r.keys().map((item) => {

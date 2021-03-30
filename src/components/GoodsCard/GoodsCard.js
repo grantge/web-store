@@ -30,7 +30,7 @@ class GoodsCard extends React.Component {
               this.state.active ? 'nes-btn is-disabled' : 'nes-btn is-primary'
             }
           >
-            Add
+            Add to Cart
           </button>
         </div>
       </li>
