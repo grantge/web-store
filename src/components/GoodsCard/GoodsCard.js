@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 
+import Header from '../Header/Header';
 import './GoodsCard.css';
 
 class GoodsCard extends React.Component {
@@ -25,7 +26,6 @@ class GoodsCard extends React.Component {
           <p className="descr">{this.props.text}</p>
           <p className="price">{this.props.price}z</p>
           <button
-            // onClick={() => this.local()}
             onClick={() => this.activeButton()}
             type="button"
             className={
