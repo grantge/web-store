@@ -14,16 +14,6 @@ header {
   align-items: center;
 }
 
-header button {
-  border: none;
-  background-color: transparent;
-}
-
-header button:active,
-button:focus {
-  outline: none;
-}
-
 header div {
   position: relative;
 }

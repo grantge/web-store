@@ -14,23 +14,24 @@ function Modal() {
   });
 
   const total = arrayPrice.reduce((a, b) => {
-    a++;
-    b++;
-    return a + b - arrayPrice.length;
+    return +a + +b;
   });
 
-  console.log(arrayPrice);
-  console.log(total);
   return (
-    <div className="nes-container is-white with-title container-modal">
-      <p className="title">Cart</p>
-      <p>item in your cart</p>
-      <div className="cart-view">
-        <ul>{item}</ul>
+    <div className="modal">
+      <div className="nes-container is-white with-title container-modal">
+        <p className="title">Cart</p>
+        <p>item in your cart</p>
+        <div className="cart-view">
+          <ul>{item}</ul>
 
-        <ul>{price}</ul>
+          <ul>{price}</ul>
+        </div>
+        <h4>Total: {total} </h4>
+        <button type="button" className="nes-btn is-primary btn-modal">
+          Primary
+        </button>
       </div>
-      <h4>Total: {total} </h4>
     </div>
   );
 }

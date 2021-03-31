@@ -7,11 +7,17 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
 
-  /* display: none; */
+li {
+  margin-top: 20px;
 }
 
 .cart-view {
   display: flex;
   justify-content: space-between;
+}
+
+.btn-modal {
+  position: inherit;
 }
