@@ -1,0 +1,17 @@
+.container-modal {
+  width: 800px;
+  height: 500px;
+
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* display: none; */
+}
+
+.cart-view {
+  display: flex;
+  justify-content: space-between;
+}

@@ -8,9 +8,9 @@ function Header() {
     <header>
       <h1>Stardew Valley Market</h1>
       <div>
-        <a href="">
-          <img className="cart" src={cart} />
-        </a>
+        <button>
+          <img className="cart" src={cart} alt="cart" />
+        </button>
         <h4 className="cart-score">{localStorage.length}</h4>
       </div>
     </header>
