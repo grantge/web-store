@@ -1,0 +1,27 @@
+li {
+  margin-top: 20px;
+}
+
+.cart-view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  margin-top: 40px;
+  margin-left: 858px;
+}
+
+.btn-modal {
+  margin-top: 20px;
+  margin-left: 880px;
+}
+
+.price-name {
+  margin-top: 28px;
+  font-size: 1.3rem;
+}
+
+.btn-remove {
+  padding: 0;
+}

@@ -28,7 +28,9 @@ class GoodsCard extends React.Component {
             onClick={() => this.activeButton()}
             type="button"
             className={
-              this.state.active ? 'nes-btn is-disabled' : 'nes-btn is-primary'
+              this.state.active
+                ? 'nes-btn is-disabled btn'
+                : 'nes-btn is-primary btn'
             }
           >
             Add to Cart
