@@ -7,22 +7,24 @@ import '../src/index.css';
 
 import Header from './components/Header';
 import GoodsTable from './components/GoodsTable';
-import Modal from './components/Modal/Modal';
+import Cart from './components/Cart/Cart';
 
 function App() {
   return (
     <div>
       <Header />
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/">
-            <GoodsTable />
-          </Route>
-          <Route path="/modal">
-            <Modal />
-          </Route>
-        </Switch>
-      </BrowserRouter>
+      <div>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/">
+              <GoodsTable />
+            </Route>
+            <Route path="/modal">
+              <Cart />
+            </Route>
+          </Switch>
+        </BrowserRouter>
+      </div>
     </div>
   );
 }
