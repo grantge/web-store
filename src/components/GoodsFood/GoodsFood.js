@@ -3,11 +3,8 @@ import React from 'react';
 import './GoodsFood.css';
 import GoodsCard from '../GoodsCard/GoodsCard';
 
-// data
-import foodArray from './foodData';
-
-function GoodsFood() {
-  const food = foodArray.map((item) => {
+function GoodsFood(props) {
+  const food = props.foodArray.map((item) => {
     return (
       <GoodsCard
         key={item.id}

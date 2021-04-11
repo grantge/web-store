@@ -3,11 +3,8 @@ import React from 'react';
 import './GoodsRings.css';
 import GoodsCard from '../GoodsCard/GoodsCard';
 
-// Data
-import ringsArray from './ringsData';
-
-function GoodsRings() {
-  const rings = ringsArray.map((item) => {
+function GoodsRings(props) {
+  const rings = props.ringsArray.map((item) => {
     return (
       <GoodsCard
         key={item.id}

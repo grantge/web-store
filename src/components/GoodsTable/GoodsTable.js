@@ -5,12 +5,12 @@ import GoodsFood from '../GoodsFood';
 import GoodsTools from '../GoodsTools';
 import GoodsRings from '../GoodsRings';
 
-function GoodsTable() {
+function GoodsTable(props) {
   return (
     <div>
-      <GoodsFood />
-      <GoodsTools />
-      <GoodsRings />
+      <GoodsFood foodArray={props.food} />
+      <GoodsTools toolsArray={props.tools} />
+      <GoodsRings ringsArray={props.rings} />
     </div>
   );
 }

@@ -9,6 +9,10 @@ import Header from './components/Header';
 import GoodsTable from './components/GoodsTable';
 import Cart from './components/Cart/Cart';
 
+import foodData from './components/GoodsFood/foodData';
+import ringsData from './components/GoodsRings/ringsData';
+import toolsData from './components/GoodsTools/toolsData';
+
 function App() {
   return (
     <div>
@@ -17,7 +21,7 @@ function App() {
         <BrowserRouter>
           <Switch>
             <Route exact path="/">
-              <GoodsTable />
+              <GoodsTable food={foodData} rings={ringsData} tools={toolsData} />
             </Route>
             <Route path="/modal">
               <Cart />

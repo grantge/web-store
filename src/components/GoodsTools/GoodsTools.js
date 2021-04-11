@@ -3,11 +3,8 @@ import React from 'react';
 import './GoodsTools.css';
 import GoodsCard from '../GoodsCard/GoodsCard';
 
-// Data
-import toolsArray from '../GoodsTools/toolsData';
-
-function GoodsTools() {
-  const tools = toolsArray.map((item) => {
+function GoodsTools(props) {
+  const tools = props.toolsArray.map((item) => {
     return (
       <GoodsCard
         key={item.id}
